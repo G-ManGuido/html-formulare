@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Vorlage</title>
+</head>
+
+<body>
+
+    <form action="#">
+        <fieldset>
+            <legend>Authentication</legend>
+            <table>
+                <tr>
+                    <td><label for="email">E-Mail:</label><input type="email" maxlength="30"
+                            placeholder="Deine E-Mail-Adresse"></td>
+                    <td><label for="pw">Passwort:</label><input type="password" name="pw" id="" minlength="8" required
+                            placeholder="min. 8 Zeichen Pw">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button>Submit</button> <input type="reset"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>Register form</legend>
+            <table>
+                <tr>
+                    <td>Vorname</td>
+                    <td><input type="text" name="vorname" id="" placeholder="Vorname"></td>
+                </tr>
+                <tr>
+                    <td>Nachname</td>
+                    <td><input type="text" name="nachname" id="" placeholder="Nachname"></td>
+                </tr>
+                <tr>
+                    <td>E-Mail</td>
+                    <td><input type="email" maxlength="30" placeholder="Ihre E-Mail-Adresse"></td>
+                </tr>
+                <tr>
+                    <td>Geschlecht</td>
+                    <td>
+                        <label for="gender">weiblich:</label>
+                        <input type="radio" name="gender" id="">
+
+                        <label for="gender">männlich:</label>
+                        <input type="radio" name="gender" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Bild</td>
+                    <td><input type="file" name="bild" id=""></td>
+                </tr>
+                <tr>
+                    <td>Land</td>
+                    <td> <select name="lang" id="">
+                            <option value="">bitte auswählen...</option>
+                            <option value="de">Deutschland</option>
+                            <option value="fr">Frankreich</option>
+                            <option value="gb">England</option>
+                            <option value="ru">Russland</option>
+                            <option value="it">Italien</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>bevorzugte Sprache</td>
+                    <td><select name="sprache" size="4">
+                            <option>HTML</option>
+                            <option>CSS</option>
+                            <option>JS</option>
+                            <option>React</option>
+                        </select>
+                        (Um mehere auszuwählen benutzte Option)
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Branche</td>
+                    <td>
+                        <input type="checkbox" name="branche" id="">
+                        <label for="branche">IT</label>
+                        <input type="checkbox" name="branche" id="">
+                        <label for="branche">Design</label>
+                        <input type="checkbox" name="branche" id="">
+                        <label for="branche">anderes</label>
+
+
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button>Submit</button> <input type="reset"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+
+
+    <script src="https://kit.fontawesome.com/8c93758a75.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
